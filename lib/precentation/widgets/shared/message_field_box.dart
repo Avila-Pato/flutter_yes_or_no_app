@@ -25,7 +25,7 @@ class MessageFieldBox extends StatelessWidget {
         onValue(textValue); // llamar el callback
       },
     ),
-    hintText: 'Escribe tu mensaje aquí',
+    hintText: 'Escribe tu pregunta terminando con un ?',
     hintStyle: const TextStyle(fontSize: 18, color: Colors.black),
   );
 
